@@ -1,0 +1,24 @@
+# Core dependencies for enhanced_interactive_agent2.py
+streamlit>=1.28.0
+plotly>=5.15.0
+pandas>=2.0.0
+numpy>=1.24.0
+openai>=1.12.0
+pydantic>=2.0.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+google-genai>=0.3.0
+gradio>=4.0.0
+
+# Additional dependencies for simulation and modelling
+scipy>=1.10.0
+scikit-learn>=1.3.0
+
+# For JSON handling and data processing
+jsonschema>=4.17.0
+
+# For environment variable management
+python-dotenv>=1.0.0
+
+# For type hints and dataclasses (usually included with Python 3.7+)
+typing-extensions>=4.5.0

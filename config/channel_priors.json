@@ -1,0 +1,62 @@
+{
+  "Google": {
+    "name": "Google",
+    "cpm_log_mu": 4.007333,
+    "cpm_log_sigma": 0.477459,
+    "ctr_mean": 0.035,
+    "ctr_std": 0.019508,
+    "cvr_mean": 0.025,
+    "cvr_std": 0.015606,
+    "quality_log_mu": 0.0,
+    "quality_log_sigma": 0.1,
+    "theta_log_mu": 8.517193191416238,
+    "theta_log_sigma": 0.3,
+    "aov_log_mu": 8.517193,
+    "aov_log_sigma": 1.255851
+  },
+  "Meta": {
+    "name": "Meta",
+    "cpm_log_mu": 2.484907,
+    "cpm_log_sigma": 0.444553,
+    "ctr_mean": 0.018,
+    "ctr_std": 0.008583,
+    "cvr_mean": 0.019,
+    "cvr_std": 0.010534,
+    "quality_log_mu": 0.0,
+    "quality_log_sigma": 0.1,
+    "theta_log_mu": 8.517193191416238,
+    "theta_log_sigma": 0.3,
+    "aov_log_mu": 8.517193,
+    "aov_log_sigma": 1.255851
+  },
+  "TikTok": {
+    "name": "TikTok",
+    "cpm_log_mu": 2.70805,
+    "cpm_log_sigma": 0.444553,
+    "ctr_mean": 0.008,
+    "ctr_std": 0.004292,
+    "cvr_mean": 0.015,
+    "cvr_std": 0.009754,
+    "quality_log_mu": 0.0,
+    "quality_log_sigma": 0.1,
+    "theta_log_mu": 8.517193191416238,
+    "theta_log_sigma": 0.3,
+    "aov_log_mu": 8.517193,
+    "aov_log_sigma": 1.255851
+  },
+  "LinkedIn": {
+    "name": "LinkedIn",
+    "cpm_log_mu": 4.317488,
+    "cpm_log_sigma": 0.348725,
+    "ctr_mean": 0.008,
+    "ctr_std": 0.003902,
+    "cvr_mean": 0.05,
+    "cvr_std": 0.031212,
+    "quality_log_mu": 0.0,
+    "quality_log_sigma": 0.1,
+    "theta_log_mu": 8.517193191416238,
+    "theta_log_sigma": 0.3,
+    "aov_log_mu": 8.517193,
+    "aov_log_sigma": 1.255851
+  }
+}

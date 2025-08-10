@@ -1,0 +1,235 @@
+{
+  "metadata": {
+    "generated_at": "2025-08-09T23:48:31.147208",
+    "tool": "enhanced_interactive_agent",
+    "model": "gemini-2.5-flash"
+  },
+  "benchmarks": {
+    "company": "Leo",
+    "industry": "Advertisement",
+    "geography": "Boston",
+    "timeframe": "2023-2024",
+    "channels": [
+      {
+        "channel": "Google",
+        "geography": "Boston",
+        "industry": "Advertisement",
+        "cpm_usd_per_1000": {
+          "unit": "USD",
+          "p10": 25.0,
+          "p50": 55.0,
+          "p90": 85.0
+        },
+        "ctr_ratio": {
+          "unit": "ratio",
+          "p10": 0.015,
+          "p50": 0.035,
+          "p90": 0.065
+        },
+        "cvr_ratio": {
+          "unit": "ratio",
+          "p10": 0.01,
+          "p50": 0.025,
+          "p90": 0.05
+        },
+        "aov_usd": {
+          "unit": "USD",
+          "p10": 1000.0,
+          "p50": 5000.0,
+          "p90": 25000.0
+        },
+        "notes": "CPM primarily reflects Google Display Network. CTR and CVR ranges blend Search (higher performance) and Display (lower performance) for B2B SaaS. Average B2B SaaS Google Ads CPM was $50.60 - $54.4 in July 2023. [1, 2] B2B SaaS Google Search Ads CTR averaged 7.45% in 2024, while Display Ads CTR averaged 0.87%. [6] Median B2B SaaS Google Ads CVR was 1.54% in April 2025, with Search CVR at 2.03% and Content (Display) CVR at 0.42%. [17]",
+        "sources": [
+          {
+            "title": "B2B SaaS Google Ads Stats & Benchmarks for 2024 | Powered by Search",
+            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEAVdCJPqKG7Nhxw7apzezB5aNHr7lpWPbilvD2XGBC8ccISbiIErTVXwXp4SteClysN_NNXxmhFUcWmhy5_uIf7YjRC74eW2GykRl8OI3JRNHj8eBLecVANOX9zdtnv8k7qhKJM0TWYlSDWTGm3hlhXoXbmIwLSGKbx2p5wqkh5FvetAVg"
+          },
+          {
+            "title": "B2B SaaS Brands Facebook, Google & TikTok Ads Benchmarks - Varos",
+            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFKs9K-pVjVu3wf-h-dgb0YROYHtWqqavbEpXqVI99qgz8w54p0XyKwgbcgTg6DoVfdkoGxBvq0NgoaUPtCmduLOpu-QVmdHwkLTlSoMBGbcM7TqhOgtA4UIa2qelUg3n_XgYOe2nsI36QpBnWKrQ=="
+          },
+          {
+            "title": "Google Ads B2B Advertising Benchmarks: From Startups to Scaleups",
+            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFWQJzlvq9Kad8p2TJ2k533mqIqryPaI20k_OC1Dp-LmTJiJhgEBDjwzuk6pX9lVOgXhZrVAS0tC8XbG9YQ-pq5nFx3v1pfpKTIt6CvVLDGkjXI-9kfSN0MqcY5jiHqXO6M78NlRmSuqfuzfarFXScrHbBHIIOYlERBZk48RnkEr2r_dXPibC1oeqPVe_g9ibtNpZB2-Cvh_NhD56Wvby4Lr7JHaiKLhA=="
+          },
+          {
+            "title": "Google Ads CVR For B2B SaaS | April 2025 - Varos",
+            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH5vUn9UpTFZ21hfX15ldjx7-JZgv4nvg3dSTG85GDsLwWurT6_SdGSoAGeuWNvLxVKvekbv_C7qDN8K5ELwWi46yNfL1Af2A_3NImx3aAeaTqqJOv14e1gbyIeWTYPlZ_LKzv-ipqtW6M09KHgAnI9qSw=="
+          },
+          {
+            "title": "2025 LinkedIn Ads Benchmarks Every SaaS & Tech Marketer Needs | NAV43",
+            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFT5xynl9tVnIcrVV9F1-7x0_ZqeGBhwbMWVIvKlgSTz7zj0GXEMzqRQsYRz3R4J9tozQ9aqfMI4UpvOVe0IQt3J-NYrqdJWuHefk-AYkbXAIb64AOHuSZdvR0nfPNvmthgVnVgnFEcqsDaOTUvguI8mRTZ7cN_IFZcBkoygG9WeR5JL7q5S6emZL7Y0LA=="
+          },
+          {
+            "title": "2025 LinkedIn Ads Benchmark Report for B2B Marketers | HockeyStack Labs",
+            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEWunlkUOu48C2b85Y1kueIMkcqbb7EOL6appKKefycwPiwTsyOGGOmOcU1XsEvL7Ud8IT7a1-VZ89R3MWLljHTnuvGWfS368Hu3X_vmAaqILA_k5OZut6fgqQr2UQAxkveQzlYGbKU0jJS3zalrr_owGWJVgE46QpzVKg2"
+          }
+        ]
+      },
+      {
+        "channel": "Meta",
+        "geography": "Boston",
+        "industry": "Advertisement",
+        "cpm_usd_per_1000": {
+          "unit": "USD",
+          "p10": 8.0,
+          "p50": 12.0,
+          "p90": 25.0
+        },
+        "ctr_ratio": {
+          "unit": "ratio",
+          "p10": 0.008,
+          "p50": 0.018,
+          "p90": 0.03
+        },
+        "cvr_ratio": {
+          "unit": "ratio",
+          "p10": 0.008,
+          "p50": 0.019,
+          "p90": 0.035
+        },
+        "aov_usd": {
+          "unit": "USD",
+          "p10": 1000.0,
+          "p50": 5000.0,
+          "p90": 25000.0
+        },
+        "notes": "Meta Ads (Facebook & Instagram) CPM for B2B SaaS was $10.3 in July 2023. [2] Average CTR for general traffic campaigns was 1.57% and for leads campaigns 2.53% in 2024 across all industries. [18] B2B SaaS CVR on Meta Ads was 1.9% in July 2023. [2]",
+        "sources": [
+          {
+            "title": "B2B SaaS Brands Facebook, Google & TikTok Ads Benchmarks - Varos",
+            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFKs9K-pVjVu3wf-h-dgb0YROYHtWqqavbEpXqVI99qgz8w54p0XyKwgbcgTg6DoVfdkoGxBvq0NgoaUPtCmduLOpu-QVmdHwkLTlSoMBGbcM7TqhOgtA4UIa2qelUg3n_XgYOe2nsI36QpBnWKrQ=="
+          },
+          {
+            "title": "[NEW STUDY] Meta Ads Benchmarks 2024 - [SMK] Social Media Knowledge",
+            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGTXq78LH_Yekr8_PBZWwFpPhKbaH8nbHXIQhIQBHHbgdcetBsO3LctCkGw81wSc9iCii0nNX3JrNrqvVeb9XwqFvwj7sr2SSKU-bDvvCG4HaE7dPix28-ttWSuFwb0BqyVMEnfooTQD0BrNg8="
+          },
+          {
+            "title": "2025 LinkedIn Ads Benchmarks Every SaaS & Tech Marketer Needs | NAV43",
+            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFT5xynl9tVnIcrVV9F1-7x0_ZqeGBhwbMWVIvKlgSTz7zj0GXEMzqRQsYRz3R4J9tozQ9aqfMI4UpvOVe0IQt3J-NYrqdJWuHefk-AYkbXAIb64AOHuSZdvR0nfPNvmthgVnVgnFEcqsDaOTUvguI8mRTZ7cN_IFZcBkoygG9WeR5JL7q5S6emZL7Y0LA=="
+          },
+          {
+            "title": "2025 LinkedIn Ads Benchmark Report for B2B Marketers | HockeyStack Labs",
+            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEWunlkUOu48C2b85Y1kueIMkcqbb7EOL6appKKefycwPiwTsyOGGOmOcU1XsEvL7Ud8IT7a1-VZ89R3MWLljHTnuvGWfS368Hu3X_vmAaqILA_k5OZut6fgqQr2UQAxkveQzlYGbKU0jJS3zalrr_owGWJVgE46QpzVKg2"
+          }
+        ]
+      },
+      {
+        "channel": "TikTok",
+        "geography": "Boston",
+        "industry": "Advertisement",
+        "cpm_usd_per_1000": {
+          "unit": "USD",
+          "p10": 8.0,
+          "p50": 15.0,
+          "p90": 25.0
+        },
+        "ctr_ratio": {
+          "unit": "ratio",
+          "p10": 0.004,
+          "p50": 0.008,
+          "p90": 0.015
+        },
+        "cvr_ratio": {
+          "unit": "ratio",
+          "p10": 0.005,
+          "p50": 0.015,
+          "p90": 0.03
+        },
+        "aov_usd": {
+          "unit": "USD",
+          "p10": 1000.0,
+          "p50": 5000.0,
+          "p90": 25000.0
+        },
+        "notes": "TikTok CPM for B2B SaaS was $5.4 in July 2023, while conversion-based/lead generation campaigns can exceed $15 CPM. [2, 22] Median B2B SaaS TikTok Ads CTR was 0.64% in April 2025. [25] B2B SaaS CVR on TikTok Ads was 3.1% in July 2023, though general conversion-optimized ads averaged 0.46%. [2, 5]",
+        "sources": [
+          {
+            "title": "B2B SaaS Brands Facebook, Google & TikTok Ads Benchmarks - Varos",
+            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFKs9K-pVjVu3wf-h-dgb0YROYHtWqqavbEpXqVI99qgz8w54p0XyKwgbcgTg6DoVfdkoGxBvq0NgoaUPtCmduLOpu-QVmdHwkLTlSoMBGbcM7TqhOgtA4UIa2qelUg3n_XgYOe2nsI36QpBnWKrQ=="
+          },
+          {
+            "title": "TikTok Statistics and Benchmarks To Track In 2024 - ICUC",
+            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFMmBgIel2DKQ1go7at2xrwC4mC265EfChR_xu6qBqfa0Mx6t702on1oPVpgtWrS9q_hCjWghev4W0Fi3GLnWiaOzCz1jWpQvnoek6tRd-a5zUjU3hUEY4NFCoveBzZz4cQGwM2GiMMk1FSFwmlTJPTlg-MtF8eaK9YZ4uAfM3XonXGWyhesLg=="
+          },
+          {
+            "title": "TikTok Ads Benchmarks for CTR, CR, and CPM - 2025 Update - Lebesgue: AI CMO",
+            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGQqDP90ZQfex84_MsRlBich8MiluYK6YCse7oAw2xpX9pkGskNVugqQouXaBfw4jwvNSXqoH5DveMN2Sd-E9D9RCiXTxzDD8-psnmIAuQMpk4bexqYXVc5mzFs4Uif7hNTkYaKUjo2DfiTtiBw69Ny6rshEnVXrLBqKcUw3IwIBXA=="
+          },
+          {
+            "title": "Improve Ad Performance with TikTok Ad Benchmarks 2025 - Mega Digital",
+            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHejQinTd2RuuLyQ4s-b4uoj2RjgqHlV-BjXsRleBm-y7_D95GwUcajO3_ebUpPXWaslvozYyPUEbafZeXew0wQm-stnAARTLrddGj5VLB5DfHcb98Sf6ErZFRM4rVE0RyCw-9xvI8s8Vr9_N89uw=="
+          },
+          {
+            "title": "The Performance Marketing Guide to TikTok Ads Cost (2025) - Gupta Media",
+            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGcKzt7eOn4BFScCV5oj-WQvbeyFARlnL9Ca75a06daRwMMu-JDXClbDG58Xq2Cf41JWnVOekQJaL5NBSBKNnacoKFUmjjo_AphYhBj_WwlL0628gQDw38bQ9hC0SxdSmhrOwnfoP3MQYTbqzcy"
+          },
+          {
+            "title": "Understanding TikTok Ads Benchmarks and Metrics | Corkboard Concepts - Medium",
+            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH3CbEroHiZoG88OPKlqRceouiO1cLbUFzvA5vGspEKzL5XZAie6aEH6gAm5ZXqGHtwBFPf18eFy2yqdDsiYo_QYSeczrcueDCL0OicEatyMs-4o49RukibC2PTsSfy8RcxWWCh9-a96K_42g8-istoCUFTK6oxkwKmL5yUV0F0sTRGREPIn8zVR-bcFq9CylQOEIeY955RmCyUiuFr6t9thegsvdcTYVjZUP1JnF0XXw=="
+          },
+          {
+            "title": "Tiktok Ads CTR For B2B SaaS | April 2025 - Varos",
+            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEAbA9nBqeOxtSalwJUu1G5syPH_04pQTUBW87EKbJW-r46EQfTCyDjUMk5qi_jsxw2PfDwhr1XmDE94q5QVAXS_KWN4YOZ55aN_szCM3iEHE3V_biANEsaLm2X_8A7VGUyNIas_vgQmGtjbwWxciiw4fo=="
+          }
+        ]
+      },
+      {
+        "channel": "LinkedIn",
+        "geography": "Boston",
+        "industry": "Advertisement",
+        "cpm_usd_per_1000": {
+          "unit": "USD",
+          "p10": 45.0,
+          "p50": 75.0,
+          "p90": 110.0
+        },
+        "ctr_ratio": {
+          "unit": "ratio",
+          "p10": 0.005,
+          "p50": 0.008,
+          "p90": 0.015
+        },
+        "cvr_ratio": {
+          "unit": "ratio",
+          "p10": 0.02,
+          "p50": 0.05,
+          "p90": 0.1
+        },
+        "aov_usd": {
+          "unit": "USD",
+          "p10": 1000.0,
+          "p50": 5000.0,
+          "p90": 25000.0
+        },
+        "notes": "LinkedIn CPM for SaaS in North America ranges from $50-$100. [10] CTR for the Tech Industry on LinkedIn averaged 0.75% - 1.25% in 2024. [4] Sponsored Content CTR for SaaS is 0.4-0.6%, with strong campaigns reaching 0.7-1%. [10] LinkedIn Lead Gen Forms can achieve ~13% conversion rates, while landing page conversions are typically 2-5%. [10, 14]",
+        "sources": [
+          {
+            "title": "LinkedIn Ad Benchmarks for 2024 - Cometly",
+            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFjopeRRImvtLusX3i3OrtZmT9agpV7omDE2mm9TtDAzqvKQQKdRDYdg5d--Z9gYVG4OCKoW8WJF9v6ZOQ5HD1WuvGOKm78veYSloprVG-MPb6cSNeS2iDyQx8z8avNh3KCOcJ0MSGW547cKZmj"
+          },
+          {
+            "title": "A Deep Dive into LinkedIn Ads Benchmarks for SaaS - Perfomato",
+            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGSN_AwBxE6rthU5Fm1b4OmGr08e6tbuM0Ph5_qmOUeYkKbkV2EJJx2N5SwNGB9zTjZ_os7U2_UO2TvBgHFFehaED-75VXvPAM4zVa5EkLENYmRT3Sx1UPKI4tUFOu5rVHVyuBAZI-xJ1WXEl802KJaObCGfKbyXfeiMhQN4QThjULPLXJJAblWldo="
+          },
+          {
+            "title": "LinkedIn Ad Budgeting: Making Sense of CPM and CPC in 2024 | TA Monroe Digital - Marketing Agency for B2B SaaS Companies",
+            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHorIjEcccMcSybNEmNCtRF5OtYThvlgzqDqdwaqzmDjUhr1e2cqoMmyEEzyMDrTyR6V4t817YA6HZxuQyJnOyw8Wml1RBDhI559FnDdNT5b8OfvEu7K2XXXODrIaOReU66kInflqXz2W471b45rFnmFP9GhAncwbxwoNFQi3FTk160DVgcNFwVeuMdDLskMvi5gg=="
+          },
+          {
+            "title": "2025 LinkedIn Ads Benchmarks Every SaaS & Tech Marketer Needs | NAV43",
+            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFT5xynl9tVnIcrVV9F1-7x0_ZqeGBhwbMWVIvKlgSTz7zj0GXEMzqRQsYRz3R4J9tozQ9aqfMI4UpvOVe0IQt3J-NYrqdJWuHefk-AYkbXAIb64AOHuSZdvR0nfPNvmthgVnVgnFEcqsDaOTUvguI8mRTZ7cN_IFZcBkoygG9WeR5JL7q5S6emZL7Y0LA=="
+          },
+          {
+            "title": "2025 LinkedIn Ads Benchmark Report for B2B Marketers | HockeyStack Labs",
+            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEWunlkUOu48C2b85Y1kueIMkcqbb7EOL6appKKefycwPiwTsyOGGOmOcU1XsEvL7Ud8IT7a1-VZ89R3MWLljHTnuvGWfS368Hu3X_vmAaqILA_k5OZut6fgqQr2UQAxkveQzlYGbKU0jJS3zalrr_owGWJVgE46QpzVKg2"
+          },
+          {
+            "title": "Linkedin Ad Benchmarks 2025 - An Always Up-to-date Guide - Tamarind's B2B House",
+            "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF86vMDhMtW-5oKNbBLOcxEIOauUIDfS1aOTxl5kTXcPQjmgpp3PLKBy-g7CS3qlIjxPMjB6NvmJVIkRj1SgQlQhSciOl3vh6iD-fi1Iaxkq4MUeOIiqyNvIi7GkAAHR9P1w04fS_HVHGMcdsLm"
+          }
+        ]
+      }
+    ]
+  }
+}

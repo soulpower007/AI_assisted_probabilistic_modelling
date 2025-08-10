@@ -1,0 +1,58 @@
+LeoAds.ai Hackathon: Budget Brain Solo only • 12 hours • External info: Gemini web search only 
+# The idea 
+
+Starting with a company and a monthly ad budget. Build a small web app that decides how to split that budget across Google, Meta, TikTok, and LinkedIn. Great predictions mix three kinds of smarts: 
+• Learned from data: classic ML that fits patterns from examples. 
+• World knowledge: LLMs already know a lot and can make a solid first guess with zero samples. 
+• Structured reasoning: explicit structure about how the world works (graphs, simulations, constraints) to test what-ifs. 
+Let the human steer assumptions, show uncertainty, and explain why the plan makes sense. Keep it simple, visual, and honest. 
+
+# The challenge 
+• Takes a company name, a monthly budget (for example $5,000), and a goal (for example demos, revenue, CAC). 
+• Outputs a budget breakdown across Google, Meta, TikTok, and LinkedIn. 
+• Shows a confidence or error notion for that breakdown (for example ranges, intervals, or probabilities). 
+• Lets a user tweak assumptions and constraints and recompute. 
+• Explains why the split is reasonable with sources for any benchmark claims gathered via Gemini. 
+
+# Minimum features to pass 
+• Clear inputs and a clean results view (table or chart). 
+• Start with the companies that we work with (see leoads.ai) and a variety of monthly budgets
+• A structured reasoning core that mixes an LLM-informed prior (use Gemini for ranges or anchors) with a method to turn assumptions into outcomes. 
+• An assumptions panel where users can edit a few key numbers or pins (for example minimum LinkedIn 20%). 
+• Short explanations with citations showing where your numbers came from. Modeling guidance 
+
+    There is no single right answer. Be creative. Blend LLM priors with structure in any defensible way. Examples of structured approaches (use one or combine): 
+• Graph or node flows (awareness → click → lead → demo → sale) with transition probabilities. 
+• Influence or causal diagrams for how CPM, CTR, CVR, and quality interact. 
+• Bayesian networks to encode dependencies and update beliefs as assumptions change. 
+• Monte Carlo or quasi-Monte Carlo to propagate uncertainty. 
+• Response curves (saturating or logarithmic) to capture diminishing returns. 
+
+## One quick example
+• Use Gemini to gather ranges for CPM, CTR, and CVR by channel for a company like the one described. Keep the sources. 
+• Pick a simple structure: either a four-step funnel graph or a saturating response curve per channel to map spend → conversions. 
+• Evaluate a coarse grid of budget splits (for example 10% steps that sum to 100%). For each split, sample your metric ranges and compute the chosen objective. 
+• Report the best split plus uncertainty bands (for example p10–p90) and a two-line rationale. 
+
+# Output requirements 
+• Budget breakdown across the four channels. 
+• A confidence or error notion for the breakdown (for example p10–p90, intervals, or a probability a channel deserves ≥ X%). 
+• A short, readable explanation with citations for any external numbers. Scoring rubric 
+• Modeling and uncertainty — 30: Clear structure and uncertainty, not just point guesses. 
+• LLM use and citations — 15: Structured prompts, checked outputs, visible sources.
+• Full-stack execution — 25: Clean UI, sensible API, basic tests, easy local run.
+• UX and human-in-the-loop — 20: Intuitive controls, visible reasoning. 
+• Clarity and honesty — 10: Limits and trade-offs are explicit. 
+
+# Baseline 
+• Elicit priors with Gemini: ranges for CPM, CTR, CVR by channel + links. 
+• Define a mapping from spend to conversions per channel (simple funnel or saturating curve). 
+• Explore splits on a grid (for example 10% steps). For each split, sample the ranges and compute the objective. 
+• Show the winner: allocation + error bars. Allow editing one or two assumptions and recompute. 
+
+What to submit 
+One Loom or video (max 5 minutes) where you: 
+• Demo the product end to end. 
+• Walk through assumptions, structure, and sources. 
+• Explain what you would build next to improve accuracy, data integrations, and decision logic. 
+• Call out the biggest trade-offs you made in 12 hours.
