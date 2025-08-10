@@ -1,5 +1,7 @@
 # Setup Guide for Enhanced Interactive Marketing Agent
 
+### Checkout the attached powerpoint for details on the modelling :)
+
 This guide will help you set up and run the `enhanced_interactive_agent2.py` file, which is an AI-powered marketing budget optimization tool.
 
 ## Prerequisites
