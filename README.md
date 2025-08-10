@@ -11,7 +11,7 @@ This guide will help you set up and run the `enhanced_interactive_agent2.py` fil
 ## Step-by-Step Setup
 
 ### 1. Clone/Setup the Repository
-# If you haven't already, navigate to your project directory
+If you haven't already, navigate to your project directory
 
 
 ### 2. Create a Virtual Environment (Recommended)
